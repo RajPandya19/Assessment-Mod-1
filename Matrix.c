@@ -2,7 +2,6 @@
 
 // User input
 void input(int matrix[2][2]) {
-    // printf("\nEnter elements of 2x2 matrix:\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             printf("Element [%d][%d]: ", i + 1, j + 1);
@@ -48,7 +47,7 @@ int main() {
 
     mul(a, b, res);
 
-    printf("\nResultant Matrix (A x B):\n");
+    printf("\nResult of  Matrix (A x B):\n");
     dsl(res);
 
     return 0;
